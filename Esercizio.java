@@ -5,22 +5,38 @@ import java.util.Scanner;
 
 // Classe principale, con metodo main
 class Esercizio {
+
+    class Partita {
+        protected float stamina;
+        protected boolean cambi;
+        protected int goal;
+        protected int assist;
+        protected boolean infortuni;
+        protected int gialli;
+        protected int rossi;
+
+    }
+    class Squadra extends Partita {
+        protected string nome;
+        protected string ruoli;
+        protected int numerimaglia;
+        protected float modulo;
+    }
+    class Giocatore extends Squadra {
+        protected string nazionalita;
+        protected int eta;
+        protected string piedpreferito;
+
+    }
+    
+
+    
     // Il programma parte con una chiamata a main().
     public static void main(String args[])
     {
-        //Variabili del programma
-        String nome;
 
         //Creo l'oggetto in per l'input da tastiera
         Scanner in = new Scanner( System.in );
 
-        //Leggo l'input da tastiera
-        System.out.print("Inserisci il tuo nome: ");
-        nome = in.nextLine();
-
-        //Output del nome acquisito da tastiera
-        System.out.println("Ciao "+nome+"!");
     }
 }
-
-//LEGGERE LE ISTRUZIONI NEL FILE README.md
