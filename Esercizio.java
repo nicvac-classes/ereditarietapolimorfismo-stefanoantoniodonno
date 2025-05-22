@@ -11,7 +11,6 @@ class Esercizio {
         protected boolean cambi;
         protected int goal;
         protected int assist;
-        protected boolean infortuni;
         protected int gialli;
         protected int rossi;
 
@@ -26,6 +25,7 @@ class Esercizio {
         protected string nazionalita;
         protected int eta;
         protected string piedpreferito;
+        protected boolean infortunio;
 
     }
     
